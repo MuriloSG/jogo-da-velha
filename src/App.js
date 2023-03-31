@@ -1,9 +1,10 @@
-
-import Sobre from './objects/Sobre/index';
-
+import React from "react";
+import Header from './components/Header/index.js';
 function App() {
   return (
-    <Sobre />
+    <>
+      <Header />
+    </>
   );
 }
 
